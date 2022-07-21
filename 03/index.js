@@ -1,5 +1,5 @@
 const precos = [100, 500, 100, 200, 50];
-// 1. ver se tem promocao (ter 5 ou + itens)
+// 1. ver se tem direito a promocao (ter 5 ou + itens)
 // 2. se nao tiver promocao
 // 2.1 varrer o array somando o item atual ao total
 // 3. se tiver promocao
@@ -13,8 +13,8 @@ const precos = [100, 500, 100, 200, 50];
 
 let soma = 0;
 let menor = precos[0];
-// FOR OF eh mais indicado para varrer ARRAY
 
+// FOR OF eh mais indicado para varrer ARRAY
 for (let itemAtual of precos) {
     // calcula a soma total dos itens
     soma += itemAtual;
