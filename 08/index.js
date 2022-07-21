@@ -1,10 +1,10 @@
 //const notas = [100, 100, 100, 20, 50, 30, 14, 100, 100, 100];
 const notas = [100, 100, 100, 50];
-// varrer todo o array
-// separar a maior nota
-// separar a menor nota
-// somar o restante
-// dividir pela media aritmetica
+// 1. varrer todo o array
+// 2. separar a maior nota
+// 3. separar a menor nota
+// 4. somar o restante
+// 5. dividir pela media aritmetica
 
 let maiorNota = notas[0];
 let menorNota = notas[0];
@@ -17,14 +17,14 @@ for (let item = 0; item < notas.length; item++) {
     const valorAtual = notas[item];
 
     if (valorAtual > maiorNota) {
-        maiorNota = valorAtual
+        maiorNota = valorAtual;
     } // valorAtual = a maior nota
 
     if (valorAtual < menorNota) {
-        menorNota = valorAtual
+        menorNota = valorAtual;
     } // valorAtual = a menor nota
 
-    somaNota += valorAtual
+    somaNota += valorAtual;
     //ssomaNota = somaNota + valorAtual
 }
 
