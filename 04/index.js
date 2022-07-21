@@ -1,11 +1,11 @@
 const sequencia = [">", ">", ">", "<", ">"];
 const img = [0, 1, 2, 3, 4, 5, 6];
 
-// varrer a sequencia de imagens
-// se for >, soma um
-// se for <, subtrai um
-// se indice for > 6, indice = 0
-// se indice for < 0, indice = 6
+// 1. varrer a sequencia de imagens
+// 2. se for >, soma um
+// 3. se for <, subtrai um
+// 4. se indice for > 6, indice = 0
+// 5. se indice for < 0, indice = 6
 
 let indice = 0;
 // FOR OF // sequencia de cliques
