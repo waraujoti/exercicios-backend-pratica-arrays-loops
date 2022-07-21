@@ -1,6 +1,6 @@
-//const dadoCorrompido = "*Canis %lupus )familiaris"
-//const dadoCorrompido = "Felis) silvestris *catus&"
-const dadoCorrompido = "$Ailuropoda@ melanoleuca!"
+//const dadoCorrompido = "*Canis %lupus )familiaris";
+//const dadoCorrompido = "Felis) silvestris *catus&";
+const dadoCorrompido = "$Ailuropoda@ melanoleuca!";
 
 // 1. olhar cada um dos caracteres
 // 2. ver se pode o caractere em questao
@@ -11,7 +11,8 @@ const dadoCorrompido = "$Ailuropoda@ melanoleuca!"
 let dadoPurificado = "";
 for (let caracter of dadoCorrompido) {
     // FOR OF eh mais indicado para ler e percorrer todo o ARRAY
-    if (caracter === "!" || caracter === "@" || caracter === "#" || caracter === "$" || caracter === "%" || caracter === "&" || caracter === "*" || caracter === "(" || caracter === ")") {
+    if (caracter === "!" || caracter === "@" || caracter === "#" || caracter === "$" ||
+    caracter === "%" || caracter === "&" || caracter === "*" || caracter === "(" || caracter === ")") {
 
     } else {
         dadoPurificado = dadoPurificado + caracter
