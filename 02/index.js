@@ -1,7 +1,10 @@
 const palavras = ["mamao", "maca", "melao", "melancia", "laranja"];
 const letra = "m";
 
-// calcular qtas criancas perderam falando a fruta com a letra errada
+// 1. olhar para o array
+// 2. comparar a primeira letra da string no array
+// 3. encontrar quantas string estao erradas
+// 4. calcular qtas criancas perderam falando a fruta com a letra errada
 
 let diferente = 0;
 
