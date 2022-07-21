@@ -1,11 +1,10 @@
 const palavras = ["aveia", "manha", "amora", "aviao", "vespa"];
 const primeiraLetra = "d";
 const segundaLetra = "v";
-// dado um par de letras quaisquer
-// imprima as palavras que comecam com essas duas primeiras letras
-
-// varrer o array comparando a primeira e a segunda letra
-// se encontrar, grava a palavra e imprime a combinacao
+// 1. dado um par de letras quaisquer
+// 2. imprima as palavras que comecam com essas duas primeiras letras
+// 3. varrer o array comparando a primeira e a segunda letra
+// 4. se encontrar, grava a palavra e imprime a combinacao
 
 let temALetra = false;
 // FOR DE C - Tradicional - para ler o ARRAY
@@ -28,21 +27,22 @@ if (temALetra) {
         // se a primeira e a segunda letra forem iguais
         if (inicialUm === primeiraLetra && inicialDois === segundaLetra) {
             // imprime na tela, linha por linha (palavra)
-            console.log(item)
+            console.log(item);
         }
     }
     // se a variavel temALetra for FALSE
 }   else {
-    console.log("NENHUMA")
+    console.log("NENHUMA");
 }
 
 
 
+/*
+let combinacao = [];
 
-// // let combinacao = [];
+        combinacao.push(item)
+        combinacao += item
+        combinacao = combinacao + item
 
-//         // combinacao.push(item)
-//         // combinacao += item
-//         // combinacao = combinacao + item
-
-// // console.log(combinacao);
+console.log(combinacao);
+*/
