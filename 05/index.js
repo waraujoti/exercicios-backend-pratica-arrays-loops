@@ -1,8 +1,8 @@
 const precos = [20, 15, 8, 2, 12];
-// varrer todas as possibilidades de compra e venda - no futuro
-// ver, para cada uma se eh prejuizo
-// se for, anotar o valor
-// depois, ver qual o menor prejuizo
+// 1. varrer todas as possibilidades de compra e venda - no futuro
+// 2. ver, para cada uma se eh prejuizo
+// 3. se for, anotar o valor
+// 4. depois, ver qual o menor prejuizo
 
 let perdaMinima = 999999999999999;
 
@@ -13,6 +13,7 @@ for (let compra = 0; compra < precos.length; compra++) {
     // FOR DE C - Dentro de outro FOR DE C
     // variavel venda vai ser o valor de venda
     for (let venda = (compra+1); venda < precos.length; venda++) {
+
         const valorDeCompra = precos[compra];
         const valorDeVenda = precos[venda];
         const prejuizo = valorDeCompra - valorDeVenda;
